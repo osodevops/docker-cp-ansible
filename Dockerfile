@@ -66,5 +66,4 @@ COPY entrypoint.sh /ansible/playbooks/cp-ansible/entrypoint.sh
 WORKDIR /ansible/playbooks/cp-ansible
 
 # Sets entry point (same as running ansible-playbook)
-ENTRYPOINT ["/ansible/playbooks/cp-ansible/entrypoint.sh"]
-#CMD ["sleep", "100000"]
+CMD ["sh", "/ansible/playbooks/cp-ansible/entrypoint.sh"]
