@@ -1,0 +1,12 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: "Docker CP Ansible"
+
+# Short description of this project
+description: |-
+  This is a docker wrapper for the Confluent supported ansible playbooks
