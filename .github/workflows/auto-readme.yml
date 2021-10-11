@@ -2,7 +2,6 @@ name: Auto Readme
 on:
   pull_request_target:
     types: [opened, synchronize]
-  workflow_dispatch:
 
 jobs:
   auto-readme:
@@ -20,7 +19,7 @@ jobs:
         if: github.event.pull_request.state == 'open'
         name: Privileged Checkout
         with:
-          token: ${{ secrets.GIT_ORG_REPO_TAG }}
+          token: ${{ secrets.PUBLIC_REPO_ACCESS_TOKEN }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           # Check out the PR commit, not the merge commit
           # Use `ref` instead of `sha` to enable pushing back to `ref`
@@ -31,7 +30,7 @@ jobs:
         if: github.event.pull_request.state == 'open'
         shell: bash
         env:
-          GITHUB_TOKEN: "${{ secrets.GIT_ORG_REPO_TAG }}"
+          GITHUB_TOKEN: "${{ secrets.PUBLIC_REPO_ACCESS_TOKEN }}"
         run: make BUILD_HARNESS_PATH=/build-harness PACKAGES_PREFER_HOST=true -f /build-harness/templates/Makefile.build-harness pr/readme/host
 
       # Commit changes (if any) to the PR branch
