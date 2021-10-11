@@ -2,6 +2,7 @@ name: Auto Readme
 on:
   pull_request_target:
     types: [opened, synchronize]
+  workflow_dispatch:
 
 jobs:
   auto-readme:
