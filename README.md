@@ -25,7 +25,7 @@
 
 
 -->
-This is a docker wrapper for the Confluent supported ansible playbooks
+This is a docker wrapper for the Confluent supported ansible playbooks used in Terraform deployments.
 
 ---
 
@@ -40,6 +40,14 @@ This is a docker wrapper for the Confluent supported ansible playbooks
 
 
 
+
+
+
+## Customer Stories
+
+Discover our customer stories and see what OSO can deliver for your business.
+
+- [Confluent Platform on Azure](https://github.com/osodevops/terraform-azure-confluent-platform) - Terraform Module for deploying best practice HA Confluent Platform on Azure
 
 
 
