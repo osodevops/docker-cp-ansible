@@ -1,6 +1,6 @@
 
 <!-- markdownlint-disable -->
-# Docker CP Ansible
+# Docker Confluent Platform Ansible
 <!-- markdownlint-restore -->
 
 [![README Header][readme_header_img]][readme_header_link]
@@ -25,7 +25,7 @@
 
 
 -->
-This is a docker wrapper for the Confluent supported ansible playbooks!
+This is a docker wrapper for the Confluent supported ansible playbooks! These supported ansible Playbooks for Confluent Platform offers a simple way to configure and deploy Confluent Platform.
 
 ---
 
