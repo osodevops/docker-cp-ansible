@@ -9,7 +9,7 @@ name: "Docker CP Ansible"
 
 # Short description of this project
 description: |-
-  This is a docker wrapper for the Confluent supported ansible playbooks.
+  This is a docker wrapper for the Confluent supported ansible playbooks!
 
 # Canonical GitHub repo
 github_repo: osodevops/docker-cp-ansible
