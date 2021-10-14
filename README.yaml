@@ -5,7 +5,7 @@
 #
 
 # Name of this project
-name: "Docker CP Ansible"
+name: "Docker Confluent Platform Ansible"
 
 # Short description of this project
 description: |-
