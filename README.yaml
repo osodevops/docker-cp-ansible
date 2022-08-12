@@ -21,6 +21,9 @@ related:
 
 # References
 references:
+  - name: "Docker enabled cp-ansible"
+    description: 'Docker container running cp-ansible'
+    url: "https://hub.docker.com/repository/docker/osodevops/cp-ansible"
   - name: "Confluent Platform on Azure"
     description: 'Terraform Module for deploying best practice HA Confluent Platform on Azure'
     url: "https://github.com/osodevops/terraform-azure-confluent-platform"
