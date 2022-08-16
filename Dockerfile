@@ -68,6 +68,7 @@ WORKDIR /ansible/ansible_collections/confluent/platform/
 
 # Install Confluent required Ansible modules :: God knows why they have used this one!!!
 RUN ansible-galaxy collection install ansible.posix
+RUN ansible-galaxy collection install community.general
 
 # Sets entry point (same as running ansible-playbook)
 CMD ["sh", "/ansible/ansible_collections/confluent/platform/entrypoint.sh"]
