@@ -42,11 +42,19 @@ This is a docker wrapper for the Confluent supported ansible playbooks! These su
 
 
 
+## Related Projects
+
+Check out these related projects.
+
+- [CP Ansible](https://github.com/confluentinc/cp-ansible) - Confluent supported Ansible playbooks
+
+
 
 ## Customer Stories
 
 Discover our customer stories and see what OSO can deliver for your business.
 
+- [Docker enabled cp-ansible](https://hub.docker.com/repository/docker/osodevops/cp-ansible) - Docker container running cp-ansible
 - [Confluent Platform on Azure](https://github.com/osodevops/terraform-azure-confluent-platform) - Terraform Module for deploying best practice HA Confluent Platform on Azure
 
 
@@ -57,7 +65,7 @@ File a GitHub [issue](https://github.com/osodevops/docker-cp-ansible/issues), se
 
 ## The legals
 
-Copyright © 2017-2021 [OSO](https://oso.sh) | See [LICENCE](LICENSE) for full details.
+Copyright © 2017-2022 [OSO](https://oso.sh) | See [LICENCE](LICENSE) for full details.
 
 [<img src="https://oso-public-resources.s3.eu-west-1.amazonaws.com/oso-logo-green.png" alt="OSO who we are" width="250"/>](https://oso.sh/who-we-are/)
 
